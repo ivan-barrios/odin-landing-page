@@ -3,14 +3,20 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
+
+
+
 
 /* HEADER BEGINS */
 
 .header{
+    background-color: #023535;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70px;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -19,13 +25,25 @@ body{
     display: flex;
     gap: 24px;
 }
+/* header links decoration */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /* HEADER ENDS */
+
+
+
+
 
 /* FIRST SECTION BEGINS */
 
 .first-section{
-    background-color: brown;
+    background-color: #015958;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -33,7 +51,6 @@ body{
     gap: 50px;
 }
 .main-text{
-    background-color: blue;
     display: flex;
     flex-direction: column;
     width:800px;
@@ -44,49 +61,52 @@ body{
     color: #F9FAF8;
 }
 
-.s1-images img{
-    width: 200px;
-    height:150px;
+.first-section img{
+    width: 500px;
+    height:450px;
 }
-.s1-images{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.s1-a{
-    display: flex;
-    gap: 5px;
-}
-.s1-b{
-    display: flex;
-    gap: 5px;
-}
-
 /* FIRST SECTION ENDS */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header links decoration */
-
-
-ul{
-    list-style-type: none;
+/* SECOND SECTION BEGINS */
+.second-section{
+    background-color: #008F8C;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-a{
-    text-decoration: none;
-    color: white;
+
+.subtitle{
+    font-size:50px;
+    padding-top: 40px;
 }
+
+.s2-container{
+    margin-top: 40px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:300px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info img{
+    max-height:300px;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+/* SECOND SECTION ENDS */
+
+
+
+/* THIRD SECTION STARTS */
+
+/* THIRD SECTION ENDS */
