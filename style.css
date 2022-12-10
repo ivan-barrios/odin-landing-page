@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:#262626;
     color: white;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@ body{
 /* HEADER BEGINS */
 
 .header{
-    background-color: #023535;
+    background-color:#0D0C00;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@ ul{
 }
 a{
     text-decoration: none;
-    color: white;
+    color:white;
 }
 
 /* HEADER ENDS */
@@ -43,7 +43,7 @@ a{
 /* FIRST SECTION BEGINS */
 
 .first-section{
-    background-color: #015958;
+    background-color:#594C3B;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@ a{
 
 /* SECOND SECTION BEGINS */
 .second-section{
-    background-color: #008F8C;
+    background-color:#403226;
     height:500px;
     display:flex;
     flex-direction: column;
@@ -108,5 +108,59 @@ a{
 
 
 /* THIRD SECTION STARTS */
+.third-section{
+    background-color:#BFA399;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.s3-text{
+    max-width:1000px;
+    max-height: 500px;
+    font-family: light italic;
+    font-size: 36px;
+}
 /* THIRD SECTION ENDS */
+
+
+
+/* FOURTH SECTION STARTS */
+.fourth-section{
+    background-color:#0D0D0D;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4-container{
+    background-color: #262626;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+    font-size: 30px;
+}
+
+.s4-container button{
+    background-color: #262626;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+/* FOURTH SECTION ENDS */
+
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
